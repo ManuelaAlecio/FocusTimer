@@ -48,13 +48,13 @@ buttonStop.addEventListener('click', () => {
 buttonSoundOff.addEventListener('click', () => {
   buttonSoundOn.classList.remove('hide')
   buttonSoundOff.classList.add('hide')
-  sound.bgMusicPause()
+  sound.bgMusicStart()
 })
 
 buttonSoundOn.addEventListener('click', () => {
   buttonSoundOn.classList.add('hide')
   buttonSoundOff.classList.remove('hide')
-  sound.bgMusicStart()
+  sound.bgMusicPause()
 })
 
 buttonSet.addEventListener('click', () => {
